@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FrontPageComponent } from './page';
 
 @Component({
   selector: 'app-root',
