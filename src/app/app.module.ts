@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DeviceDetectorModule } from 'ngx-device-detector';
 
 import { AppComponent } from './app.component';
 import { FrontPageComponent } from './page';
@@ -29,9 +30,11 @@ import { IframeGeneratorService } from './services/iframe.generator.service';
   imports: [
     BrowserModule,
     HttpModule,
-    FormsModule, ReactiveFormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    DeviceDetectorModule.forRoot()
   ],
-  providers: [ ReadJsonFileService, Broadcaster, IframeGeneratorService ],
+  providers: [ReadJsonFileService, Broadcaster, IframeGeneratorService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

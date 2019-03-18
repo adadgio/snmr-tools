@@ -1,10 +1,10 @@
 <div class="header" flex flex-row flex-space-between *ngIf="showBigOn">
     <img id="logo" src="assets/icons/snmr.png" alt="snmr">
     <h2>Rhumato Scores</h2>
-    <a href="cmd://webview-close" *ngIf="isMobileDevice()">
+    <a href="cmd://webview-close" *ngIf="!isDesktopDevice()">
         <img src="assets/icons/close.png" alt="" class="close">
     </a>
-    <div *ngIf="!isMobileDevice()"></div>
+    <div *ngIf="isDesktopDevice()"></div>
 </div>
 
 <div class="header small" flex flex-row flex-space-between *ngIf="!showBigOn">
@@ -12,8 +12,8 @@
         <i class="fal fa-angle-left"></i>
     </div>
     <strong>{{ title }}</strong>
-    <a href="cmd://webview-close" *ngIf="isMobileDevice()">
+    <a href="cmd://webview-close" *ngIf="!isDesktopDevice()">
         <img src="assets/icons/close.png" alt="" class="close">
     </a>
-    <div *ngIf="!isMobileDevice()"></div>
+    <div *ngIf="isDesktopDevice()"></div>
 </div>

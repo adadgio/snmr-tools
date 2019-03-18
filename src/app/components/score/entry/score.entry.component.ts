@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Score, ScoreInterface } from '../../../interface';
-import { MobileDetectorSingleton } from '../../../services/mobile.detector';
+import { ScoreInterface } from '../../../interface';
+import { DeviceDetectorService } from 'ngx-device-detector';
 import { Broadcaster } from '../../../services/broadcaster.service';
 
 @Component({
@@ -13,7 +13,8 @@ export class ScoreEntryComponent implements OnInit {
     @Input() score: ScoreInterface;
     @Input() lastEntry: boolean;
 
-    constructor(private _broadcaster: Broadcaster) { }
+    constructor(private _broadcaster: Broadcaster,
+        private _deviceDetectorService: DeviceDetectorService) { }
 
     ngOnInit() { }
 
@@ -21,7 +22,7 @@ export class ScoreEntryComponent implements OnInit {
         let finalLink = this.score.link;
         let target = "_blank";
 
-        if (MobileDetectorSingleton.isMobileDevice()) {
+        if (!this._deviceDetectorService.isDesktop()) {
             finalLink = 'medics://viewer?m_source=' + this.score.link
             target = '_self';
         }

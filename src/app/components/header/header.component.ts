@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MobileDetectorSingleton } from '../../services/mobile.detector';
+import { DeviceDetectorService } from 'ngx-device-detector';
 import { Broadcaster } from '../../services/broadcaster.service';
 
 @Component({
@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
     showBigOn: boolean;
     title: string;
 
-    constructor(private _broadcaster: Broadcaster) { 
+    constructor(private _broadcaster: Broadcaster, private _deviceDetectorService: DeviceDetectorService) { 
         this.showBigOn = true;
     }
 
@@ -32,7 +32,7 @@ export class HeaderComponent implements OnInit {
         this._broadcaster.emit('close.score.iframe', {});
     }
 
-    isMobileDevice() {
-        return MobileDetectorSingleton.isMobileDevice();
+    isDesktopDevice() {
+        return this._deviceDetectorService.isDesktop();
     }
 }

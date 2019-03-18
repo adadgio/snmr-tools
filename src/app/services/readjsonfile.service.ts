@@ -1,10 +1,12 @@
+
+import {map} from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/observable/throw';
-import 'rxjs/add/operator/toPromise';
+import { Observable } from 'rxjs';
+
+
+
+
 
 @Injectable()
 export class ReadJsonFileService {
@@ -14,6 +16,6 @@ export class ReadJsonFileService {
     ) {}
 
     getJsonData(filename: string) {
-        return this.http.get(filename).map((res: any) => res.json()).toPromise();
+        return this.http.get(filename).pipe(map((res: any) => res.json())).toPromise();
     }
 }

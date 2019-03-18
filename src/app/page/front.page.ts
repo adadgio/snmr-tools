@@ -1,16 +1,14 @@
 import { Component, Renderer2, ElementRef, AfterContentInit, AfterViewInit } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import 'rxjs/add/operator/debounceTime';
-import 'rxjs/add/operator/distinctUntilChanged';
+
+
 import { Score, ScoreInterface } from '../interface';
 
 // Declare custom service here
 import { ReadJsonFileService } from '../services';
-import { MobileDetectorSingleton } from '../services/mobile.detector';
 import { Broadcaster } from '../services/broadcaster.service';
 import { IframeGeneratorService } from '../services/iframe.generator.service';
-
 
 @Component({
     selector: 'app-front-page',
@@ -95,10 +93,6 @@ export class FrontPageComponent implements OnInit {
                 return false;
             });
         }
-    }
-
-    isMobileDevice() {
-        return MobileDetectorSingleton.isMobileDevice();
     }
 
     private match(score: ScoreInterface, term: string) {
