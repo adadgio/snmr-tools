@@ -1,45 +1,48 @@
 [{
-        "pathology": "Polyarthrite Rhumatoïde",
-        "scores": [{
-                "title": "ACR EULAR 2010",
-                "link": "https://www.rheumakit.com/fr/calculators/acr_eular2010"
-            },
-            {
-                "title": "DAS 28",
-                "link": "https://360medics.com/assets/media/snmr-tools/das28.html",
-                "owner": true,
-                "category": "activity"
-            },
-            {
-                "title": "SDAI",
-                "link": "https://www.rheumakit.com/fr/calculators/sdai",
-                "category": "activity"
-            },
-            {
-                "title": "CDAI",
-                "link": "https://www.rheumakit.com/fr/calculators/cdai",
-                "category": "activity"
-            },
-            {
-                "title": "HAQ",
-                "link": "https://www.rheumakit.com/fr/calculators/haq_di",
-                "category": "activity"
-            },
-            {
-                "title": "RAPID3",
-                "link": "https://www.rheumakit.com/fr/calculators/rapid3",
-                "category": "activity"
-            }
-        ]
+    "pathology": "Polyarthrite Rhumatoïde",
+    "scores": [{
+        "title": "ACR EULAR 2010",
+        "link": "https://360medics.com/assets/media/snmr-tools/ACR_EULAR_2010.html",
+        "owner": true
     },
+        {
+            "title": "DAS 28",
+            "link": "https://360medics.com/assets/media/snmr-tools/das28.html",
+            "owner": true,
+            "category": "activity"
+        },
+        {
+            "title": "SDAI",
+            "link": "https://www.rheumakit.com/fr/calculators/sdai",
+            "category": "activity"
+        },
+        {
+            "title": "CDAI",
+            "link": "https://www.rheumakit.com/fr/calculators/cdai",
+            "category": "activity"
+        },
+        {
+            "title": "HAQ",
+            "link": "https://360medics.com/assets/media/snmr-tools/HAQ.html",
+            "owner": true,
+            "category": "activity"
+        },
+        {
+            "title": "RAPID3",
+            "link": "https://360medics.com/assets/media/snmr-tools/RAPID3.html",
+            "owner": true,
+            "category": "activity"
+        }
+    ]
+},
     {
         "pathology": "Spondylarthrite Ankylosante",
         "scores": [{
-                "title": "ASAS Axiale",
-                "link": "https://360medics.com/assets/media/snmr-tools/asas_axiale.html",
-                "owner": true,
-                "category": "diagnostic"
-            },
+            "title": "ASAS Axiale",
+            "link": "https://360medics.com/assets/media/snmr-tools/asas_axiale.html",
+            "owner": true,
+            "category": "diagnostic"
+        },
             {
                 "title": "ASAS Périphérique",
                 "link": "https://360medics.com/assets/media/snmr-tools/asas_peripherique.html",
@@ -54,12 +57,14 @@
             },
             {
                 "title": "BASDAI",
-                "link": "http://medicalcul.free.fr/basdai.html",
+                "link": "https://360medics.com/assets/media/snmr-tools/BASDAI.html",
+                "owner": true,
                 "category": "activity"
             },
             {
                 "title": "ASDAS",
-                "link": "http://medicalcul.free.fr/asdas.html",
+                "link": "https://360medics.com/assets/media/snmr-tools/ASDAS.html",
+                "owner": true,
                 "category": "activity"
             }
         ]
@@ -76,10 +81,11 @@
     {
         "pathology": "Fibromyalgie",
         "scores": [{
-                "title": "FIRST",
-                "link": "http://medicalcul.free.fr/firstquest.html",
-                "category": "diagnostic"
-            },
+            "title": "FIRST",
+            "link": "https://360medics.com/assets/media/snmr-tools/FIRST.html",
+            "owner": true,
+            "category": "diagnostic"
+        },
             {
                 "title": "ACR2010",
                 "link": "https://360medics.com/assets/media/snmr-tools/ACR_2010.html",
@@ -97,11 +103,11 @@
     {
         "pathology": "Lupus érythémateux disséminé",
         "scores": [{
-                "title": "ACR 1997",
-                "link": "https://360medics.com/assets/media/snmr-tools/acr_1997.html",
-                "owner": true,
-                "category": "diagnostic"
-            },
+            "title": "ACR 1997",
+            "link": "https://360medics.com/assets/media/snmr-tools/acr_1997.html",
+            "owner": true,
+            "category": "diagnostic"
+        },
             {
                 "title": "SLEDAI",
                 "link": "https://360medics.com/assets/media/snmr-tools/SLEDAI.html",
@@ -113,10 +119,10 @@
     {
         "pathology": "Syndrome de Gougerot-Sjogren",
         "scores": [{
-                "title": "Critères diagnostiques américano-européens de 2002",
-                "link": "https://360medics.com/assets/media/snmr-tools/diagnostic.html",
-                "owner": true
-            },
+            "title": "Critères diagnostiques américano-européens de 2002",
+            "link": "https://360medics.com/assets/media/snmr-tools/diagnostic.html",
+            "owner": true
+        },
             {
                 "title": "ESSDAI",
                 "link": "https://scores.sanoia.com/sjogren/essdai/fr/"
@@ -144,7 +150,8 @@
         "pathology": "Dépression",
         "scores": [{
             "title": "Echelle de dépression de Hamilton",
-            "link": "http://medicalcul.free.fr/depressionhamilton.html",
+            "link": "https://360medics.com/assets/media/snmr-tools/HAMILTON.html",
+            "owner": true,
             "category": "activity"
         }]
     }
