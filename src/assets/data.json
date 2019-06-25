@@ -7,18 +7,20 @@
     },
         {
             "title": "DAS 28",
-            "link": "https://360medics.com/assets/media/snmr-tools/das28.html",
+            "link": "https://beta.360medics.com/assets/media/snmr-tools/das28.html",
             "owner": true,
             "category": "activity"
         },
         {
             "title": "SDAI",
-            "link": "https://www.rheumakit.com/fr/calculators/sdai",
+            "link": "https://360medics.com/assets/media/snmr-tools/SDAI.html",
+            "owner": true,
             "category": "activity"
         },
         {
             "title": "CDAI",
-            "link": "https://www.rheumakit.com/fr/calculators/cdai",
+            "link": "https://360medics.com/assets/media/snmr-tools/CDAI.html",
+            "owner": true,
             "category": "activity"
         },
         {
@@ -39,31 +41,31 @@
         "pathology": "Spondylarthrite Ankylosante",
         "scores": [{
             "title": "ASAS Axiale",
-            "link": "https://360medics.com/assets/media/snmr-tools/asas_axiale.html",
+            "link": "https://beta.360medics.com/assets/media/snmr-tools/asas_axiale.html",
             "owner": true,
             "category": "diagnostic"
         },
             {
                 "title": "ASAS Périphérique",
-                "link": "https://360medics.com/assets/media/snmr-tools/asas_peripherique.html",
+                "link": "https://beta.360medics.com/assets/media/snmr-tools/asas_peripherique.html",
                 "owner": true,
                 "category": "diagnostic"
             },
             {
                 "title": "AMOR",
-                "link": "https://360medics.com/assets/media/snmr-tools/amor.html",
+                "link": "https://beta.360medics.com/assets/media/snmr-tools/amor.html",
                 "owner": true,
                 "category": "diagnostic"
             },
             {
                 "title": "BASDAI",
-                "link": "https://360medics.com/assets/media/snmr-tools/BASDAI.html",
+                "link": "https://beta.360medics.com/assets/media/snmr-tools/BASDAI.html",
                 "owner": true,
                 "category": "activity"
             },
             {
                 "title": "ASDAS",
-                "link": "https://360medics.com/assets/media/snmr-tools/ASDAS.html",
+                "link": "https://beta.360medics.com/assets/media/snmr-tools/ASDAS.html",
                 "owner": true,
                 "category": "activity"
             }
@@ -73,7 +75,7 @@
         "pathology": "Rhumatisme psoriasique",
         "scores": [{
             "title": "Caspar",
-            "link": "https://360medics.com/assets/media/snmr-tools/caspar.html",
+            "link": "https://beta.360medics.com/assets/media/snmr-tools/caspar.html",
             "owner": true,
             "category": "diagnostic"
         }]
@@ -82,19 +84,19 @@
         "pathology": "Fibromyalgie",
         "scores": [{
             "title": "FIRST",
-            "link": "https://360medics.com/assets/media/snmr-tools/FIRST.html",
+            "link": "https://beta.360medics.com/assets/media/snmr-tools/FIRST.html",
             "owner": true,
             "category": "diagnostic"
         },
             {
                 "title": "ACR2010",
-                "link": "https://360medics.com/assets/media/snmr-tools/ACR_2010.html",
+                "link": "https://beta.360medics.com/assets/media/snmr-tools/ACR_2010.html",
                 "owner": true,
                 "category": "diagnostic"
             },
             {
                 "title": "QIF",
-                "link": "https://360medics.com/assets/media/snmr-tools/QIF.html",
+                "link": "https://beta.360medics.com/assets/media/snmr-tools/QIF.html",
                 "owner": true,
                 "category": "activity"
             }
@@ -104,13 +106,13 @@
         "pathology": "Lupus érythémateux disséminé",
         "scores": [{
             "title": "ACR 1997",
-            "link": "https://360medics.com/assets/media/snmr-tools/acr_1997.html",
+            "link": "https://beta.360medics.com/assets/media/snmr-tools/acr_1997.html",
             "owner": true,
             "category": "diagnostic"
         },
             {
                 "title": "SLEDAI",
-                "link": "https://360medics.com/assets/media/snmr-tools/SLEDAI.html",
+                "link": "https://beta.360medics.com/assets/media/snmr-tools/SLEDAI.html",
                 "owner": true,
                 "category": "activity"
             }
@@ -120,7 +122,7 @@
         "pathology": "Syndrome de Gougerot-Sjogren",
         "scores": [{
             "title": "Critères diagnostiques américano-européens de 2002",
-            "link": "https://360medics.com/assets/media/snmr-tools/diagnostic.html",
+            "link": "https://beta.360medics.com/assets/media/snmr-tools/diagnostic.html",
             "owner": true
         },
             {
@@ -133,7 +135,7 @@
         "pathology": "Lombalgie",
         "scores": [{
             "title": "EIFEL",
-            "link": "https://360medics.com/assets/media/snmr-tools/EIFEL.html",
+            "link": "https://beta.360medics.com/assets/media/snmr-tools/EIFEL.html",
             "owner": true,
             "category": "activity"
         }]
@@ -150,7 +152,7 @@
         "pathology": "Dépression",
         "scores": [{
             "title": "Echelle de dépression de Hamilton",
-            "link": "https://360medics.com/assets/media/snmr-tools/HAMILTON.html",
+            "link": "https://beta.360medics.com/assets/media/snmr-tools/HAMILTON.html",
             "owner": true,
             "category": "activity"
         }]
